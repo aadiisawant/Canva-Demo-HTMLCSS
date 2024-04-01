@@ -1,0 +1,35 @@
+#con-four .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+
+#con-four .card {
+    flex: 0 0 45%; /* Each card takes up 45% of the container */
+    max-width: 300px; /* Limit maximum width of each card */
+    margin: 10px;
+    /* text-align: center; */
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    margin: 5px 0;
+}
+#con-four {
+    background-color: #e0fe9c;
+}
+.nums{
+    font-size: 53px;
+}
+/* Responsive styles */
+@media (max-width: 782px) {
+    #con-four .card {
+        flex-basis: 100%;
+    }
+}
